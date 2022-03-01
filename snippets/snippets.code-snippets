@@ -116,4 +116,31 @@
         ]
 
     },
+
+    "image" :{
+        "prefix": "!image",
+        "body": [
+            "el::image('imageurl',''),",
+
+        ],
+        "description": "adding image"
+    },
+
+    "fontawsome icons" :{
+        "prefix": "!far",
+        "body": [
+            "Icons::far($),",
+
+        ],
+        "description": "regular fontawesomeicons"
+    },
+
+    "fontawsome icons" :{
+        "prefix": "!fas",
+        "body": [
+            "Icons::fas($),",
+
+        ],
+        "description": "solid fontawesomeicons"
+    },
 }
