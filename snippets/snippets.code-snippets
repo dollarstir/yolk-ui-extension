@@ -170,4 +170,31 @@
         ],
         "description": "solid svg"
     },
+
+    "Basic Alert" :{
+        "prefix": "!ba",
+        "body": [
+            "Alert::basic('$'),",
+
+        ],
+        "description": "Basic Alert"
+    },
+
+    "Icon Alert" :{
+        "prefix": "!ia",
+        "body": [
+            "Alert::iconalert('$'),",
+
+        ],
+        "description": "Icon Alert"
+    },
+
+    "Closable Alert" :{
+        "prefix": "!ca",
+        "body": [
+            "Alert::closable('$'),",
+
+        ],
+        "description": "Closable Alert"
+    },
 }
