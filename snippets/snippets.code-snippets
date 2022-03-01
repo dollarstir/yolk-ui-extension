@@ -1,0 +1,119 @@
+{
+    "Yolk UI snippet" :{
+        "prefix":"!yolkui",
+        "body":[
+           " // Developed By Frederick Ennin",
+           "//Contact: +233556676471",
+           "//Email: kpin463@gmail.com",
+            "YolkUI::run(new Wrapper(",
+                "el::html('',",
+                "[",
+                    "el::head([",
+                        "   meta::viewport(),",
+                        "   el::title('York Framework'),",
+                        "   import('css'),",
+                    "]),",
+                    "el::body([",
+                       "    $0",
+                       "    import('js'),",
+                    "])",   
+                "])",
+            "));"
+            
+        ],
+        "description": "Generates Php Yolk UI"
+
+    },
+    "h1" :{
+        "prefix": "!h1",
+        "body": [
+            "el::h1('',",
+            "[",
+                "$0",
+           "]),"
+
+        ],
+        "description": "heading 1 element"
+    },
+
+    "h2" :{
+        "prefix": "!h2",
+        "body": [
+            "el::h2('',",
+            "[",
+                "$0",
+           "]),"
+
+        ],
+        "description": "heading 2 element"
+    },
+
+    "h3" :{
+        "prefix": "!h3",
+        "body": [
+            "el::h3('',",
+            "[",
+                "$0",
+           "]),"
+
+        ],
+        "description": "heading 3 element"
+    },
+
+    "h4" :{
+        "prefix": "!h4",
+        "body": [
+            "el::h4('',",
+            "[",
+                "$0",
+           "]),"
+
+        ],
+        "description": "heading 4 element"
+    },
+
+    "h5" :{
+        "prefix": "!h5",
+        "body": [
+            "el::h5('',",
+            "[",
+                "$0",
+           "]),"
+
+        ],
+        "description": "heading 5 element"
+    },
+
+    "h6" :{
+        "prefix": "!h6",
+        "body": [
+            "el::h6('',",
+            "[",
+                "$0",
+           "]),"
+
+        ],
+        "description": "heading 6 element"
+    },
+    "insert":{
+        "prefix": "!insert",
+        "body": [
+            "$$add = new Add();",
+            "extract($$_POST);",
+            "$$response =$$add->insert('tablename',",
+           "[",
+                "'databasefiled'=>'corresposndingpostfield',",
+                "'another'=>'corresposndingpostfield'",
+                "$0",
+            "],",
+           " $$_FILES ",
+            ");",
+            "if($$response==\"success\"){",
+                "//do something;",
+                "}else{",
+                    "//do something;",
+                "}"
+        ]
+
+    },
+}
