@@ -143,4 +143,31 @@
         ],
         "description": "solid fontawesomeicons"
     },
+
+    "Custom SVGb" :{
+        "prefix": "!bsvg",
+        "body": [
+            "Image::brandsvg('somebrandname eg:facebook $'),",
+
+        ],
+        "description": "brand svg"
+    },
+
+    "Custom SVGr" :{
+        "prefix": "!rsvg",
+        "body": [
+            "Image::regularsvg('$'),",
+
+        ],
+        "description": "regular svg"
+    },
+
+    "Custom SVGs" :{
+        "prefix": "!ssvg",
+        "body": [
+            "Image::solidsvg('$'),",
+
+        ],
+        "description": "solid svg"
+    },
 }
