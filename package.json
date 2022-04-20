@@ -6,7 +6,7 @@
     "publisher": "Frederick Ennin",
     "repository": {
         "type": "git",
-        "url": "https://github.com/dollarstir/phpyolk"
+        "url": "https://github.com/dollarstir/yolk-ui-extension"
     },
     "icon": "logo.png",
     "engines": {
