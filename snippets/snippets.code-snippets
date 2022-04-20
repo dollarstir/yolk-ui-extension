@@ -98,22 +98,22 @@
     "insert":{
         "prefix": "!insert",
         "body": [
-            "$$add = new Add();",
-            "extract($$_POST);",
-            "$$response =$$add->insert('tablename',",
+            
+            "$$response =insert('tablename',",
            "[",
-                "'databasefiled'=>'corresposndingpostfield',",
-                "'another'=>'corresposndingpostfield'",
+                "'databasefiled'=>'value to insert',",
+                "'databasefiled'=>'value to insert'",
                 "$0",
-            "],",
-           " $$_FILES ",
+            "]",
+          
             ");",
             "if($$response==\"success\"){",
                 "//do something;",
                 "}else{",
                     "//do something;",
                 "}"
-        ]
+        ],
+        "description": "Adding Record to database"
 
     },
 
